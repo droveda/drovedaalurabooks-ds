@@ -11,8 +11,20 @@
 
 ## Para testar o componente
 * na raiz do projeto, 
-  * cd example
-  * yarn install
   * yarn build
-  * yarn
-  * yarn start
+  * cd example
+    * yarn install
+    * yarn build
+    * yarn
+    * yarn start
+
+## Criar conta no npmjs.com
+* colocar projeto no github
+* no terminal: npm login
+
+## Publicar o pacote
+* npm publish --access-public
+
+## Publicar o pacote apos atualizar o projeto
+* alterar a versao da lib no package.json
+* npm publish --access-public

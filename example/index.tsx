@@ -1,12 +1,15 @@
 import 'react-app-polyfill/ie11';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { AbBotao } from '../.';
+import { AbBotao, Card } from '../.';
 
 const App = () => {
   return (
     <div>
-      <AbBotao />
+      <Card>
+        <p>Olá conteúdo</p>
+      </Card>
+      <AbBotao texto='Click me!' onClick={() => alert('Hi!!!')} />
     </div>
   );
 };

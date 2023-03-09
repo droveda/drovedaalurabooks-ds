@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -35,16 +35,16 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "alurabooks-ds",
-  "author": "vinicios neves",
-  "module": "dist/alurabooks-ds.esm.js",
+  "name": "drovedabooks-ds",
+  "author": "diegues roveda",
+  "module": "dist/drovedabooks-d.esm.js",
   "size-limit": [
     {
-      "path": "dist/alurabooks-ds.cjs.production.min.js",
+      "path": "dist/drovedabooks-d.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/alurabooks-ds.esm.js",
+      "path": "dist/drovedabooks-d.esm.js",
       "limit": "10 KB"
     }
   ],
