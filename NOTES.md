@@ -3,7 +3,7 @@
 * yarn install
 * yarn storybook
 
-## https://tsdx.io/#quick-start
+## utilizando o https://tsdx.io/#quick-start
 * npx tsdx create mylib
   * selecionar template: react-with-storybook
     * porem nao funcionou
